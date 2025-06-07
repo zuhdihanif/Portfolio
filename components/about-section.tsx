@@ -57,14 +57,11 @@ export default function AboutSection() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <p className="text-lg mb-6">
-              I'm a passionate Data Scientist and Risk Management specialist with a strong background in machine
-              learning and data analysis. I combine analytical expertise with business acumen to deliver data-driven
-              solutions that make a difference.
+            <p className="text-lg mb-6 text-justify">
+            A fresh graduate of Informatics Engineering from Telkom University Purwokerto with a strong interest in Artificial Intelligence, Machine Learning, Computer Vision, Risk Management, and Data Science. Experienced as Data Intelligence Intern at PT Astra International and Risk Management Intern at Bank Indonesia
             </p>
-            <p className="text-lg mb-8">
-              My mission is both to deliver top solutions and to inspire my colleagues and students to build solutions
-              that combine cutting-edge technologies to solve real-world problems.
+            <p className="text-lg mb-8 text-justify">
+              I am passionate about leveraging data and technology to create meaningful solutions and make an impact in the fields of AI, data science, and risk management.
             </p>
 
             <div className="grid grid-cols-2 gap-4">
