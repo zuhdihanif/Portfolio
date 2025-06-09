@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import Image from "next/image"
+import BaseImage from "@/components/baseimage"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -69,7 +69,7 @@ export default function ProjectsSection() {
             >
               <Card className="h-full overflow-hidden bg-secondary/5 border-primary/20 hover:border-primary/50 transition-all">
                 <div className="relative h-48 overflow-hidden">
-                  <Image
+                  <BaseImage
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
                     fill

@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
+import BaseImage from "@/components/baseimage"
 import { Card, CardContent } from "@/components/ui/card"
 import { ChartBarBigIcon, CircleAlert, LineChart} from "lucide-react"
 
@@ -41,7 +41,7 @@ export default function AboutSection() {
             className="relative"
           >
             <div className="aspect-square max-w-md mx-auto overflow-hidden rounded-2xl border-2 border-primary/20 glow-border">
-              <Image
+              <BaseImage
                 src="/FotoPutih_MuhammadZuhdiHanif.jpg"
                 alt="Muhammad Zuhdi Hanif"
                 width={200}
