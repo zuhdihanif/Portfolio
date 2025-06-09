@@ -13,7 +13,7 @@ const projects = [
     title: "Rupiah Banknotes Detection",
     description:
       "RupiahBankNotes is a deep learning-based image classification project for recognizing Indonesian Rupiah banknote denominations. It compares The Faster R-CNN and YOLOv5 architectures implemented with Pytocrh. The model is trained on a labeled dataset of banknote images across multiple classes (denominations) and includes preprocessing steps such as image resizing and normalization.",
-    image: "/rupiahbanknotes.png",
+    image: "rupiahbanknotes.png",
     tags: ["Python", "OpenCV", "Pytorch", "YOLO", "Deep Learning"],
     // demoLink: "#",
     githubLink: "https://github.com/AndiDemon-Lab/RupiahBankNotes",
@@ -22,7 +22,7 @@ const projects = [
     title: "Face Detection and Recognition",
     description:
       "Developed a Face Detection CNN project capable of detecting faces and classifying gender, emotion, and age. Implemented CNN for face detection and multi-task classification, including data preprocessing, model training, and evaluation. Designed to demonstrate deep learning techniques in computer vision for real-time facial analysis",
-    image: "/facial-recognition-software.jpg",
+    image: "facial-recognition-software.jpg",
     tags: ["Python", "OpenCV", "Tensorflow", "CNN", "Deep Learning"],
     githubLink: "https://github.com/zuhdihanif/FaceDetectionCNN",
   },
@@ -30,7 +30,7 @@ const projects = [
     title: "Garbage Classification",
     description:
       "This repository presents a Convolutional Neural Network (CNN) implementation for classifying garbage. The dataset employed in this project was created through manual scraping and comprises five common recyclable waste types. The CNN model achieves an accuracy of 92% in distinguishing between these waste categories.",
-    image: "/garbage.png",
+    image: "garbage.png",
     tags: ["Python", "OpenCV", "Tensorflow", "CNN", "Deep Learning"],
     githubLink: "https://github.com/zuhdihanif/garbage-classification",
   },
@@ -38,7 +38,7 @@ const projects = [
     title: "Monte Carlo Simulation for Financial Risk Analysis",
     description:
       "This project implements a Monte Carlo simulation to analyze financial risks. It generates random scenarios based on historical data to estimate potential future outcomes, helping in risk assessment and decision-making. The simulation is designed to model various financial instruments and market conditions.",
-    image: "/graph.jpg",
+    image: "graph.jpg",
     tags: ["Python", "Machine Learning", "Time Series Analysis"],
     githubLink: "https://github.com/zuhdihanif/ANN-for-Monte-Carlo-Forecasting",
   },
