@@ -42,7 +42,7 @@ export default function AboutSection() {
           >
             <div className="aspect-square max-w-md mx-auto overflow-hidden rounded-2xl border-2 border-primary/20 glow-border">
               <BaseImage
-                src="/FotoPutih_MuhammadZuhdiHanif.jpg"
+                src="FotoPutih_MuhammadZuhdiHanif.jpg"
                 alt="Muhammad Zuhdi Hanif"
                 width={200}
                 height={200}
