@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <link rel="icon" type="image/png" href="/favicon.png"></link>
+      <link rel="icon" type="image/png" href="favicon.png"></link>
       <body className={`${plusJakartaSans.variable} font-sans antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
