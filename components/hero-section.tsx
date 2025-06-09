@@ -43,7 +43,7 @@ export default function HeroSection() {
             </Button>
 
             <Button variant="outline" size="lg" className="rounded-full" asChild>
-              <a href="/Resume_Muhammad Zuhdi Hanif.pdf" download>
+              <a href="Resume_Muhammad Zuhdi Hanif.pdf" download>
                 <FileText className="mr-2 h-4 w-4" />
                 Download Resume
               </a>
