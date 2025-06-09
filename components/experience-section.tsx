@@ -52,7 +52,7 @@ export default function ExperienceSection() {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 h-full w-0.5 bg-primary/30"></div>
+            <div className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 h-full w-0.5 bg-primary/30"></div>
 
             {/* Experience cards */}
             <div className="space-y-12">
@@ -68,16 +68,18 @@ export default function ExperienceSection() {
                   } gap-8 md:gap-0`}
                 >
                   {/* Timeline dot */}
-                  <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-3 h-3 rounded-full bg-primary top-6 z-10"></div>
+                  <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-3 h-3 rounded-full bg-primary top-6 z-10"></div>
 
                   {/* Date for mobile */}
-                  <div className="md:hidden flex items-center mb-3 pl-10">
+                  <div className="md:hidden flex items-center mb-3 pl-16">
                     <CalendarDays className="h-4 w-4 text-primary mr-2" />
                     <span className="text-sm text-muted-foreground">{exp.duration}</span>
                   </div>
 
                   {/* Card */}
-                  <div className={`w-full md:w-1/2 ${index % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12"}`}>
+                  <div
+                    className={`w-full md:w-1/2 pl-16 md:pl-0 ${index % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12"}`}
+                  >
                     <Card className="bg-secondary/5 border-primary/20 hover:border-primary/50 transition-all hover:shadow-md">
                       <CardHeader className="p-4 pb-2">
                         <div className="flex items-center justify-between">
