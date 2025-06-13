@@ -51,13 +51,26 @@ export default function HeroSection() {
           </motion.div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.5, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
         >
-          <a href="#about" className="flex flex-col items-center">
+          <a href="#about" className="flex flex-col items-center text-center">
+            <span className="text-sm text-muted-foreground mb-2">Scroll Down</span>
+            <div className="w-5 h-10 border-2 border-muted-foreground rounded-full flex justify-center">
+              <div className="w-1 h-2 bg-primary rounded-full mt-2 animate-bounce"></div>
+            </div>
+          </a>
+        </motion.div> */}
+        <motion.div
+          className="absolute bottom-10 left-0 right-0 flex justify-center"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1, duration: 0.5, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
+        >
+          <a href="#about" className="flex flex-col items-center text-center">
             <span className="text-sm text-muted-foreground mb-2">Scroll Down</span>
             <div className="w-5 h-10 border-2 border-muted-foreground rounded-full flex justify-center">
               <div className="w-1 h-2 bg-primary rounded-full mt-2 animate-bounce"></div>
