@@ -68,8 +68,7 @@ export default function ExperienceSection() {
                   } gap-8 md:gap-0`}
                 >
                   {/* Timeline dot */}
-                  <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-3 h-3 rounded-full bg-primary top-6 z-10"></div>
-
+                  <div className="absolute left-8 top-2 md:left-1/2 md:top-6 -translate-x-1/2 w-3 h-3 rounded-full bg-primary z-10"></div>
                   {/* Date for mobile */}
                   <div className="md:hidden flex items-center mb-3 pl-16">
                     <CalendarDays className="h-4 w-4 text-primary mr-2" />
@@ -82,11 +81,11 @@ export default function ExperienceSection() {
                   >
                     <Card className="bg-secondary/5 border-primary/20 hover:border-primary/50 transition-all hover:shadow-md">
                       <CardHeader className="p-4 pb-2">
-                        <div className="flex items-center justify-between">
+                        <div className="flex items-center justify-between gap-4">
                           <h3 className="font-bold text-lg">{exp.role}</h3>
 
                           {/* Date for desktop */}
-                          <div className="hidden md:flex items-center">
+                        <div className="hidden md:flex items-center text-right flex-shrink-0">
                             <CalendarDays className="h-4 w-4 text-primary mr-2" />
                             <span className="text-sm text-muted-foreground">{exp.duration}</span>
                           </div>
